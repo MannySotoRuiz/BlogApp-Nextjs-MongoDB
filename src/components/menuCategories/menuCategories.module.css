@@ -1,27 +1,3 @@
-.travel {
-  background-color: #ff7857;
-}
-
-.culture {
-  background-color: #ffb14f;
-}
-
-.food {
-  background-color: #7fb881;
-}
-
-.fashion {
-  background-color: #ff7887;
-}
-
-.style {
-  background-color: #789cff;
-}
-
-.coding {
-  background-color: #775aec;
-}
-
 .categoryList {
   margin-top: 35px;
   margin-bottom: 60px;
@@ -34,4 +10,28 @@
   padding: 10px 25px;
   border-radius: 10px;
   font-size: 14px;
+}
+
+.categoryItem.style {
+  background-color: #57c4ff31;
+}
+
+.categoryItem.fashion {
+  background-color: #da85c731;
+}
+
+.categoryItem.food {
+  background-color: #7fb88133;
+}
+
+.categoryItem.travel {
+  background-color: #ff795736;
+}
+
+.categoryItem.culture {
+  background-color: #ffb04f45;
+}
+
+.categoryItem.coding {
+  background-color: #5e4fff31;
 }

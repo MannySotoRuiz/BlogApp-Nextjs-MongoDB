@@ -1,6 +1,3 @@
-.container {
-}
-
 .infoContainer {
   display: flex;
   align-items: center;
@@ -76,25 +73,22 @@
     font-size: 54px;
   }
 }
-
 @media screen and (max-width: 1280px) {
   .title {
     font-size: 48px;
   }
 }
-
 @media screen and (max-width: 1024px) {
   .imageContainer {
     display: none;
   }
 }
-
 @media screen and (max-width: 640px) {
   .title {
     font-size: 36px;
   }
 
-  .description p {
+  .description p{
     font-size: 18px;
   }
 }

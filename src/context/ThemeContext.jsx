@@ -5,9 +5,6 @@ import { createContext, useEffect, useState } from "react";
 export const ThemeContext = createContext();
 
 const getFromLocalStorage = () => {
-  // since nextjs is using SSR by default even if we used "use client"
-  // at the beginning its a SSR component but we are trying to use browser localstorage
-  // but in the server, there is no browser so during this transition, its going to cuz some problem
   if (typeof window !== "undefined") {
     const value = localStorage.getItem("theme");
     return value || "light";

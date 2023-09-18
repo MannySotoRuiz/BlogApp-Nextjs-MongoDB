@@ -20,20 +20,20 @@
 }
 
 .button {
-  border: none;
-  background-color: teal;
   padding: 16px 20px;
+  background-color: teal;
   color: white;
   font-weight: bold;
+  border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.comments {
+.comments{
   margin-top: 50px;
 }
 
-.comment {
+.comment{
   margin-bottom: 50px;
 }
 
@@ -60,11 +60,11 @@
   font-weight: 500;
 }
 
-.date {
+.date{
   font-size: 14px;
 }
 
-.desc {
+.desc{
   font-size: 18px;
   font-weight: 300;
 }

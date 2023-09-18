@@ -26,7 +26,7 @@
   justify-content: center;
 }
 
-.socialButton:nth-child(1) {
+.socialButton:first-child {
   background-color: #ff5555;
 }
 
@@ -43,13 +43,12 @@
     padding: 50px 100px;
   }
 }
-
 @media screen and (max-width: 640px) {
   .wrapper {
     padding: 30px;
   }
 
-  .socialButton {
+  .socialButton{
     font-weight: 400;
     font-size: 14px;
   }

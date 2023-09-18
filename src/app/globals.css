@@ -16,10 +16,6 @@ body {
   overflow-x: hidden;
 }
 
-.transition0-3s {
-  transition: 0.7s;
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -29,7 +25,7 @@ a {
   --bg: #0f172a;
   --textColor: #ddd;
   --softBg: #1f273a;
-  --softTextColor: #a6a7a6;
+  --softTextColor: #a6a6a6;
 }
 
 .light {
@@ -58,13 +54,11 @@ a {
     max-width: 1366px;
   }
 }
-
 @media screen and (max-width: 1280px) {
   .wrapper {
     max-width: 1024px;
   }
 }
-
 @media screen and (max-width: 1024px) {
   .wrapper {
     max-width: 768px;
@@ -72,23 +66,21 @@ a {
     padding-right: 40px;
   }
 }
-
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .wrapper {
     max-width: 640px;
   }
 }
-
 @media screen and (max-width: 640px) {
   .wrapper {
     max-width: 475px;
   }
 }
 
-.ql-container {
+.ql-container{
   font-size: 28px !important;
 }
 
-.quill > .ql-container > .ql-editor.ql-blank::before {
+.quill > .ql-container > .ql-editor.ql-blank::before{
   color: #b3b3b1;
 }
